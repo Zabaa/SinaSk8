@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
@@ -10,13 +9,21 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 
+import picProfile from '../assets/images/profile.jpg'
+import picWoodcamp1 from '../assets/images/woodcamp1.jpg'
+import picWoodcamp2 from '../assets/images/woodcamp2.jpg'
+import picDesk1 from '../assets/images/desk1.jpg'
+import picBarcelona from '../assets/images/barcelona.jpg'
+import picStopnicaSkatePark from '../assets/images/stopnicaSkatePark.jpg'
+import picTraining from "../assets/images/training.jpg"
+
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon fa-angellist"></span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -27,10 +34,10 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic1} alt="" />
+            <img src={picProfile} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Kim jestem ?</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -48,10 +55,10 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src={picTraining} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Zajęcia na deskorolce</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -69,10 +76,10 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt="" />
+            <img src={picWoodcamp2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Obozy Woodcamp</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -89,71 +96,68 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Aktualności</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            Najnowsze informacje na temet mojej aktywności zawodowej oraz zajawkowe wpisy.
+            Projekty, wydarzenia, turnieje, obozy.
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={pic4} alt="" />
+                <img src={picWoodcamp1} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Woodcamp 2019</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Moja mała relacja z tegorocznej wersji obozu deskorolkowego.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Czytaj więcej
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={picDesk1} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Jakiś super duper turniej</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Czytaj więcej
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic6} alt="" />
+                <img src={picBarcelona} alt="" />
               </a>
-              <h3 className="major">Ante fermentum</h3>
+              <h3 className="major">Wypad do Barcelony</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Czytaj więcej
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic7} alt="" />
+                <img src={picStopnicaSkatePark} alt="" />
               </a>
-              <h3 className="major">Fusce consequat</h3>
+              <h3 className="major">Skatepark w Stopnicy</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Czytaj więcej
               </a>
             </article>
           </section>
           <ul className="actions">
             <li>
               <a href="/#" className="button">
-                Browse All
+                Sprawdź więcej
               </a>
             </li>
           </ul>

@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/SinaSk8/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Piotr Kobos (#sina)',
   subHeading: 'Certyfikowany instruktor jazdy na deskorolce',
   // social

@@ -46,7 +46,7 @@ const IndexPage = () => (
               cursus.
             </p>
             <a href="/#" className="special">
-              Learn more
+              Czytaj więcej
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@ const IndexPage = () => (
               cursus.
             </p>
             <a href="/#" className="special">
-              Learn more
+              Czytaj więcej
             </a>
           </div>
         </div>
@@ -88,7 +88,7 @@ const IndexPage = () => (
               cursus.
             </p>
             <a href="/#" className="special">
-              Learn more
+              Czytaj więcej
             </a>
           </div>
         </div>
@@ -163,8 +163,27 @@ const IndexPage = () => (
           </ul>
         </div>
       </section>
+      <section id="five" className="wrapper spotlight style2">
+        <div className="inner">
+          <div className="content">
+            <h2 className="major">Kalendarz</h2>
+            <p>
+              Kalendarz zajęć.
+            </p>
+            <div>
+              <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FBrussels&amp;src=emFib3Jza2kubHVrQGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%2333B679&amp;mode=WEEK"
+                style={{ borderWidth: 0 }}
+                width="800"
+                height="600"
+                frameborder="0"
+                scrolling="no">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
-  </Layout>
+  </Layout >
 );
 
 export default IndexPage;
